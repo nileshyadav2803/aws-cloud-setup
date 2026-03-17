@@ -26,3 +26,13 @@ An S3 bucket is also created to store files in the cloud.
 - AWS S3
 - Linux
 - GitHub
+
+## Architecture
+
+The cloud architecture used in this project is simple:
+
+User → Internet → EC2 Instance (Web Server) → S3 Bucket (Storage)
+
+- EC2 instance is used to host the web server.
+- Apache web server is installed on EC2.
+- S3 bucket is used to store files in the cloud.
