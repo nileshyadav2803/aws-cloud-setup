@@ -1,0 +1,10 @@
+AWS S3 Commands
+
+Create Bucket:
+aws s3 mb s3://cloud-project-bucket
+
+Upload File:
+aws s3 cp file.txt s3://cloud-project-bucket
+
+List Files:
+aws s3 ls s3://cloud-project-bucket
