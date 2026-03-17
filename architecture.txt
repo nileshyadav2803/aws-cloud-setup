@@ -1,0 +1,7 @@
+User
+ |
+Internet
+ |
+EC2 Instance (Web Server)
+ |
+S3 Bucket (Cloud Storage)
